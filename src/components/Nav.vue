@@ -22,6 +22,8 @@
 </script>
 
 <style lang="less" scoped>
+    @import "~@/assets/styles/global.less";
+
     nav {
         display: flex;
         flex-direction: row;
@@ -44,7 +46,7 @@
     }
 
     .selected {
-        color: #4fc08d;
+        color: @vue-color;
     }
 
 </style>

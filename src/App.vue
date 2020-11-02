@@ -4,19 +4,13 @@
     </div>
 </template>
 
-<style lang="scss">
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
+<style lang="less">
+    @import "~@/assets/styles/reset.less";
+    @import "~@/assets/styles/global.less";
 
     #app {
-        color: #2c3e50;
+        line-height: 1.5;
+        font-family: @font-hei;
+        color: #333;
     }
 </style>
