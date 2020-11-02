@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="nav">
         <router-link to="/money">首页</router-link>
         |
         <router-link to="/labels">标签</router-link>
@@ -15,5 +15,8 @@
 </script>
 
 <style lang="less" scoped>
+    .nav {
+        border: 1px solid red;
+    }
 
 </style>

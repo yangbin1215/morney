@@ -1,7 +1,8 @@
 <template>
     <div>
-        Monry.vue
-        <Nav/>
+        <Layout>
+            <p>Money.vue</p>
+        </Layout>
     </div>
 </template>
 
